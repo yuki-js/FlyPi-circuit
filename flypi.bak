@@ -1,0 +1,1747 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:flypi-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 P3
+U 1 1 58932AB8
+P 5900 650
+F 0 "P3" H 5900 800 50  0000 C CNN
+F 1 "Batt" V 6000 650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5900 650 50  0001 C CNN
+F 3 "" H 5900 650 50  0000 C CNN
+	1    5900 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 mfl1
+U 1 1 589332F7
+P 4000 2100
+F 0 "mfl1" H 4000 2250 50  0000 C CNN
+F 1 "CONN_01X02" V 4100 2100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 4000 2100 50  0001 C CNN
+F 3 "" H 4000 2100 50  0000 C CNN
+	1    4000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dfl1
+U 1 1 589334E9
+P 3550 2100
+F 0 "dfl1" H 3500 2180 50  0000 L CNN
+F 1 "D_Small" H 3400 2020 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 3550 2100 50  0001 C CNN
+F 3 "" V 3550 2100 50  0000 C CNN
+	1    3550 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cfl1
+U 1 1 58933856
+P 3250 2100
+F 0 "cfl1" H 3260 2170 50  0000 L CNN
+F 1 "0.1u" H 3260 2020 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3250 2100 50  0001 C CNN
+F 3 "" H 3250 2100 50  0000 C CNN
+	1    3250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1fl1
+U 1 1 58933C00
+P 3200 2900
+F 0 "r1fl1" H 3230 2920 50  0000 L CNN
+F 1 "200" H 3230 2860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3200 2900 50  0001 C CNN
+F 3 "" H 3200 2900 50  0000 C CNN
+	1    3200 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2fl1
+U 1 1 58933D23
+P 3450 3200
+F 0 "r2fl1" H 3480 3220 50  0000 L CNN
+F 1 "8.2k" H 3480 3160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3450 3200 50  0001 C CNN
+F 3 "" H 3450 3200 50  0000 C CNN
+	1    3450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 mfl2
+U 1 1 5893B728
+P 5500 2100
+F 0 "mfl2" H 5500 2250 50  0000 C CNN
+F 1 "CONN_01X02" V 5600 2100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 5500 2100 50  0001 C CNN
+F 3 "" H 5500 2100 50  0000 C CNN
+	1    5500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dfl2
+U 1 1 5893B72F
+P 5050 2100
+F 0 "dfl2" H 5000 2180 50  0000 L CNN
+F 1 "D_Small" H 4900 2020 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 5050 2100 50  0001 C CNN
+F 3 "" V 5050 2100 50  0000 C CNN
+	1    5050 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cfl2
+U 1 1 5893B736
+P 4750 2100
+F 0 "cfl2" H 4760 2170 50  0000 L CNN
+F 1 "0.1u" H 4760 2020 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4750 2100 50  0001 C CNN
+F 3 "" H 4750 2100 50  0000 C CNN
+	1    4750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BF244A qfl2
+U 1 1 5893B73D
+P 5200 2850
+F 0 "qfl2" H 5400 2925 50  0000 L CNN
+F 1 "SS8050" H 5400 2850 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 5400 2775 50  0001 L CIN
+F 3 "" H 5200 2800 50  0000 L CNN
+	1    5200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1fl2
+U 1 1 5893B744
+P 4700 2900
+F 0 "r1fl2" H 4730 2920 50  0000 L CNN
+F 1 "200" H 4730 2860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4700 2900 50  0001 C CNN
+F 3 "" H 4700 2900 50  0000 C CNN
+	1    4700 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2fl2
+U 1 1 5893B74B
+P 4950 3200
+F 0 "r2fl2" H 4980 3220 50  0000 L CNN
+F 1 "8.2k" H 4980 3160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4950 3200 50  0001 C CNN
+F 3 "" H 4950 3200 50  0000 C CNN
+	1    4950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 mfr1
+U 1 1 5893C769
+P 7250 2100
+F 0 "mfr1" H 7250 2250 50  0000 C CNN
+F 1 "CONN_01X02" V 7350 2100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 7250 2100 50  0001 C CNN
+F 3 "" H 7250 2100 50  0000 C CNN
+	1    7250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dfr1
+U 1 1 5893C770
+P 6800 2100
+F 0 "dfr1" H 6750 2180 50  0000 L CNN
+F 1 "D_Small" H 6650 2020 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 6800 2100 50  0001 C CNN
+F 3 "" V 6800 2100 50  0000 C CNN
+	1    6800 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cfr1
+U 1 1 5893C777
+P 6500 2100
+F 0 "cfr1" H 6510 2170 50  0000 L CNN
+F 1 "0.1u" H 6510 2020 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6500 2100 50  0001 C CNN
+F 3 "" H 6500 2100 50  0000 C CNN
+	1    6500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1fr1
+U 1 1 5893C785
+P 6450 2900
+F 0 "r1fr1" H 6480 2920 50  0000 L CNN
+F 1 "200" H 6480 2860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6450 2900 50  0001 C CNN
+F 3 "" H 6450 2900 50  0000 C CNN
+	1    6450 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2fr1
+U 1 1 5893C78C
+P 6700 3200
+F 0 "r2fr1" H 6730 3220 50  0000 L CNN
+F 1 "8.2k" H 6730 3160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6700 3200 50  0001 C CNN
+F 3 "" H 6700 3200 50  0000 C CNN
+	1    6700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 mfr2
+U 1 1 5893C7AE
+P 8750 2100
+F 0 "mfr2" H 8750 2250 50  0000 C CNN
+F 1 "CONN_01X02" V 8850 2100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 8750 2100 50  0001 C CNN
+F 3 "" H 8750 2100 50  0000 C CNN
+	1    8750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dfr2
+U 1 1 5893C7B5
+P 8300 2100
+F 0 "dfr2" H 8250 2180 50  0000 L CNN
+F 1 "D_Small" H 8150 2020 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 8300 2100 50  0001 C CNN
+F 3 "" V 8300 2100 50  0000 C CNN
+	1    8300 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cfr2
+U 1 1 5893C7BC
+P 8000 2100
+F 0 "cfr2" H 8010 2170 50  0000 L CNN
+F 1 "0.1u" H 8010 2020 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8000 2100 50  0001 C CNN
+F 3 "" H 8000 2100 50  0000 C CNN
+	1    8000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1fr2
+U 1 1 5893C7CA
+P 7950 2900
+F 0 "r1fr2" H 7980 2920 50  0000 L CNN
+F 1 "200" H 7980 2860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7950 2900 50  0001 C CNN
+F 3 "" H 7950 2900 50  0000 C CNN
+	1    7950 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2fr2
+U 1 1 5893C7D1
+P 8200 3200
+F 0 "r2fr2" H 8230 3220 50  0000 L CNN
+F 1 "8.2k" H 8230 3160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8200 3200 50  0001 C CNN
+F 3 "" H 8200 3200 50  0000 C CNN
+	1    8200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 mbl1
+U 1 1 5893EC7F
+P 4000 4250
+F 0 "mbl1" H 4000 4400 50  0000 C CNN
+F 1 "mbl1" V 4100 4250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 4000 4250 50  0001 C CNN
+F 3 "" H 4000 4250 50  0000 C CNN
+	1    4000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dbl1
+U 1 1 5893EC86
+P 3550 4250
+F 0 "dbl1" H 3500 4330 50  0000 L CNN
+F 1 "D_Small" H 3400 4170 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 3550 4250 50  0001 C CNN
+F 3 "" V 3550 4250 50  0000 C CNN
+	1    3550 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cbl1
+U 1 1 5893EC8D
+P 3250 4250
+F 0 "cbl1" H 3260 4320 50  0000 L CNN
+F 1 "0.1u" H 3260 4170 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3250 4250 50  0001 C CNN
+F 3 "" H 3250 4250 50  0000 C CNN
+	1    3250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1bl1
+U 1 1 5893EC9B
+P 3200 5050
+F 0 "r1bl1" H 3230 5070 50  0000 L CNN
+F 1 "200" H 3230 5010 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3200 5050 50  0001 C CNN
+F 3 "" H 3200 5050 50  0000 C CNN
+	1    3200 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2bl1
+U 1 1 5893ECA2
+P 3450 5350
+F 0 "r2bl1" H 3480 5370 50  0000 L CNN
+F 1 "8.2k" H 3480 5310 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3450 5350 50  0001 C CNN
+F 3 "" H 3450 5350 50  0000 C CNN
+	1    3450 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 mbl2
+U 1 1 5893ECC4
+P 5500 4250
+F 0 "mbl2" H 5500 4400 50  0000 C CNN
+F 1 "mbl2" V 5600 4250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 5500 4250 50  0001 C CNN
+F 3 "" H 5500 4250 50  0000 C CNN
+	1    5500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dbl2
+U 1 1 5893ECCB
+P 5050 4250
+F 0 "dbl2" H 5000 4330 50  0000 L CNN
+F 1 "D_Small" H 4900 4170 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 5050 4250 50  0001 C CNN
+F 3 "" V 5050 4250 50  0000 C CNN
+	1    5050 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cbl2
+U 1 1 5893ECD2
+P 4750 4250
+F 0 "cbl2" H 4760 4320 50  0000 L CNN
+F 1 "0.1u" H 4760 4170 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4750 4250 50  0001 C CNN
+F 3 "" H 4750 4250 50  0000 C CNN
+	1    4750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1bl2
+U 1 1 5893ECE0
+P 4700 5050
+F 0 "r1bl2" H 4730 5070 50  0000 L CNN
+F 1 "200" H 4730 5010 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4700 5050 50  0001 C CNN
+F 3 "" H 4700 5050 50  0000 C CNN
+	1    4700 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2bl2
+U 1 1 5893ECE7
+P 4950 5350
+F 0 "r2bl2" H 4980 5370 50  0000 L CNN
+F 1 "8.2k" H 4980 5310 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4950 5350 50  0001 C CNN
+F 3 "" H 4950 5350 50  0000 C CNN
+	1    4950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 mbr1
+U 1 1 5893ED09
+P 7250 4250
+F 0 "mbr1" H 7250 4400 50  0000 C CNN
+F 1 "mbr1" V 7350 4250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 7250 4250 50  0001 C CNN
+F 3 "" H 7250 4250 50  0000 C CNN
+	1    7250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dbr1
+U 1 1 5893ED10
+P 6800 4250
+F 0 "dbr1" H 6750 4330 50  0000 L CNN
+F 1 "D_Small" H 6650 4170 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 6800 4250 50  0001 C CNN
+F 3 "" V 6800 4250 50  0000 C CNN
+	1    6800 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cbr1
+U 1 1 5893ED17
+P 6500 4250
+F 0 "cbr1" H 6510 4320 50  0000 L CNN
+F 1 "0.1u" H 6510 4170 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6500 4250 50  0001 C CNN
+F 3 "" H 6500 4250 50  0000 C CNN
+	1    6500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1br1
+U 1 1 5893ED25
+P 6450 5050
+F 0 "r1br1" H 6480 5070 50  0000 L CNN
+F 1 "200" H 6480 5010 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6450 5050 50  0001 C CNN
+F 3 "" H 6450 5050 50  0000 C CNN
+	1    6450 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2br1
+U 1 1 5893ED2C
+P 6700 5350
+F 0 "r2br1" H 6730 5370 50  0000 L CNN
+F 1 "8.2k" H 6730 5310 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6700 5350 50  0001 C CNN
+F 3 "" H 6700 5350 50  0000 C CNN
+	1    6700 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 mbr2
+U 1 1 5893ED4E
+P 8750 4250
+F 0 "mbr2" H 8750 4400 50  0000 C CNN
+F 1 "mbr2" V 8850 4250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 8750 4250 50  0001 C CNN
+F 3 "" H 8750 4250 50  0000 C CNN
+	1    8750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dbr2
+U 1 1 5893ED55
+P 8300 4250
+F 0 "dbr2" H 8250 4330 50  0000 L CNN
+F 1 "D_Small" H 8150 4170 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 8300 4250 50  0001 C CNN
+F 3 "" V 8300 4250 50  0000 C CNN
+	1    8300 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cbr2
+U 1 1 5893ED5C
+P 8000 4250
+F 0 "cbr2" H 8010 4320 50  0000 L CNN
+F 1 "0.1u" H 8010 4170 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8000 4250 50  0001 C CNN
+F 3 "" H 8000 4250 50  0000 C CNN
+	1    8000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1br2
+U 1 1 5893ED6A
+P 7950 5050
+F 0 "r1br2" H 7980 5070 50  0000 L CNN
+F 1 "200" H 7980 5010 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7950 5050 50  0001 C CNN
+F 3 "" H 7950 5050 50  0000 C CNN
+	1    7950 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2br2
+U 1 1 5893ED71
+P 8200 5350
+F 0 "r2br2" H 8230 5370 50  0000 L CNN
+F 1 "8.2k" H 8230 5310 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8200 5350 50  0001 C CNN
+F 3 "" H 8200 5350 50  0000 C CNN
+	1    8200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X10 P2
+U 1 1 5895B203
+P 1550 3650
+F 0 "P2" H 1550 4200 50  0000 C CNN
+F 1 "CONN_02X10" V 1550 3650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x10_Pitch2.54mm" H 1550 2450 50  0001 C CNN
+F 3 "" H 1550 2450 50  0000 C CNN
+	1    1550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P1
+U 1 1 5895C4EE
+P 650 2350
+F 0 "P1" H 650 2600 50  0000 C CNN
+F 1 "Accel" V 750 2350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04_Pitch2.54mm" H 650 2350 50  0001 C CNN
+F 3 "" H 650 2350 50  0000 C CNN
+	1    650  2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L BF244A qfl1
+U 1 1 589852EE
+P 3700 2850
+F 0 "qfl1" H 3900 2925 50  0000 L CNN
+F 1 "SS8050" H 3900 2850 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 3900 2775 50  0001 L CIN
+F 3 "" H 3700 2800 50  0000 L CNN
+	1    3700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BF244A qfr1
+U 1 1 58985CA7
+P 6950 2850
+F 0 "qfr1" H 7150 2925 50  0000 L CNN
+F 1 "SS8050" H 7150 2850 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 7150 2775 50  0001 L CIN
+F 3 "" H 6950 2800 50  0000 L CNN
+	1    6950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BF244A qfr2
+U 1 1 58985DF5
+P 8450 2850
+F 0 "qfr2" H 8650 2925 50  0000 L CNN
+F 1 "SS8050" H 8650 2850 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 8650 2775 50  0001 L CIN
+F 3 "" H 8450 2800 50  0000 L CNN
+	1    8450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BF244A qbr2
+U 1 1 58986F79
+P 8450 5000
+F 0 "qbr2" H 8650 5075 50  0000 L CNN
+F 1 "SS8050" H 8650 5000 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 8650 4925 50  0001 L CIN
+F 3 "" H 8450 4950 50  0000 L CNN
+	1    8450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BF244A qbr1
+U 1 1 5898749E
+P 6950 5000
+F 0 "qbr1" H 7150 5075 50  0000 L CNN
+F 1 "SS8050" H 7150 5000 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 7150 4925 50  0001 L CIN
+F 3 "" H 6950 4950 50  0000 L CNN
+	1    6950 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BF244A qbl2
+U 1 1 589876CD
+P 5200 5000
+F 0 "qbl2" H 5400 5075 50  0000 L CNN
+F 1 "SS8050" H 5400 5000 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 5400 4925 50  0001 L CIN
+F 3 "" H 5200 4950 50  0000 L CNN
+	1    5200 5000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1300 3500
+NoConn ~ 1300 4000
+$Comp
+L F_Small F1
+U 1 1 589B6FCA
+P 5850 1050
+F 0 "F1" H 5810 1110 50  0000 L CNN
+F 1 "Poly switch" H 5730 990 50  0000 L CNN
+F 2 "footprint:polysw" H 5850 1050 50  0001 C CNN
+F 3 "" H 5850 1050 50  0000 C CNN
+	1    5850 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P6
+U 1 1 589BA3A0
+P 2050 1650
+F 0 "P6" H 2050 1800 50  0000 C CNN
+F 1 "Batt Pi" V 2150 1650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2050 1650 50  0001 C CNN
+F 3 "" H 2050 1650 50  0000 C CNN
+	1    2050 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P5
+U 1 1 589BC0E3
+P 1900 2650
+F 0 "P5" H 1900 2750 50  0000 C CNN
+F 1 "5v_out" V 2000 2650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 1900 2650 50  0001 C CNN
+F 3 "" H 1900 2650 50  0000 C CNN
+	1    1900 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P4
+U 1 1 589BC198
+P 1900 2200
+F 0 "P4" H 1900 2300 50  0000 C CNN
+F 1 "from batt" V 2000 2200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 1900 2200 50  0001 C CNN
+F 3 "" H 1900 2200 50  0000 C CNN
+	1    1900 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P8
+U 1 1 589BC2CF
+P 2200 2650
+F 0 "P8" H 2200 2750 50  0000 C CNN
+F 1 "GND" V 2300 2650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 2200 2650 50  0001 C CNN
+F 3 "" H 2200 2650 50  0000 C CNN
+	1    2200 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P7
+U 1 1 589BC39D
+P 2200 2200
+F 0 "P7" H 2200 2300 50  0000 C CNN
+F 1 "GND" V 2300 2200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 2200 2200 50  0001 C CNN
+F 3 "" H 2200 2200 50  0000 C CNN
+	1    2200 2200
+	0    1    1    0   
+$EndComp
+NoConn ~ 1300 3600
+$Comp
+L BF244A qbl1
+U 1 1 58987BA9
+P 3700 5000
+F 0 "qbl1" H 3900 5075 50  0000 L CNN
+F 1 "SS8050" H 3900 5000 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 3900 4925 50  0001 L CIN
+F 3 "" H 3700 4950 50  0000 L CNN
+	1    3700 5000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1800 3800
+NoConn ~ 1800 3200
+NoConn ~ 1800 3500
+Wire Wire Line
+	2650 3250 2050 3250
+Connection ~ 5950 3550
+Connection ~ 5950 5700
+Wire Wire Line
+	5950 5700 5950 850 
+Connection ~ 5300 5700
+Wire Wire Line
+	2200 5700 8550 5700
+Connection ~ 5300 3550
+Connection ~ 7050 3550
+Wire Wire Line
+	3800 3550 8550 3550
+Connection ~ 7050 3700
+Connection ~ 5850 3700
+Connection ~ 5300 3700
+Wire Wire Line
+	3800 3700 8550 3700
+Wire Wire Line
+	5850 1150 5850 3700
+Connection ~ 5850 1550
+Connection ~ 7050 1550
+Connection ~ 5300 1550
+Wire Wire Line
+	3800 1550 8550 1550
+Wire Wire Line
+	8550 3700 8550 4200
+Wire Wire Line
+	8000 3900 8550 3900
+Wire Wire Line
+	8300 3900 8300 4150
+Wire Wire Line
+	8000 4150 8000 3900
+Connection ~ 8300 3900
+Wire Wire Line
+	8550 4300 8550 4800
+Wire Wire Line
+	8550 4600 8550 4450
+Wire Wire Line
+	8000 4600 8550 4600
+Wire Wire Line
+	8300 4600 8300 4350
+Connection ~ 8550 4600
+Wire Wire Line
+	8000 4600 8000 4350
+Connection ~ 8300 4600
+Connection ~ 8550 3900
+Wire Wire Line
+	8050 5050 8250 5050
+Wire Wire Line
+	8200 5050 8200 5250
+Connection ~ 8200 5050
+Wire Wire Line
+	8200 5450 8200 5550
+Wire Wire Line
+	8200 5550 8550 5550
+Wire Wire Line
+	8550 5200 8550 5700
+Connection ~ 8550 5550
+Wire Wire Line
+	7850 5050 7750 5050
+Wire Wire Line
+	7050 3700 7050 4200
+Wire Wire Line
+	6800 3900 6800 4150
+Wire Wire Line
+	6500 4150 6500 3900
+Connection ~ 6800 3900
+Wire Wire Line
+	7050 4300 7050 4800
+Wire Wire Line
+	7050 4600 7050 4450
+Wire Wire Line
+	6500 4600 7050 4600
+Wire Wire Line
+	6800 4600 6800 4350
+Connection ~ 7050 4600
+Wire Wire Line
+	6500 4600 6500 4350
+Connection ~ 6800 4600
+Connection ~ 7050 3900
+Wire Wire Line
+	6550 5050 6750 5050
+Wire Wire Line
+	6700 5050 6700 5250
+Connection ~ 6700 5050
+Wire Wire Line
+	6700 5450 6700 5550
+Wire Wire Line
+	6700 5550 7050 5550
+Wire Wire Line
+	7050 5200 7050 5700
+Connection ~ 7050 5550
+Wire Wire Line
+	6250 5050 6350 5050
+Wire Wire Line
+	5300 3700 5300 4200
+Wire Wire Line
+	5050 3900 5050 4150
+Wire Wire Line
+	4750 4150 4750 3900
+Connection ~ 5050 3900
+Wire Wire Line
+	5300 4300 5300 4800
+Wire Wire Line
+	5300 4600 5300 4450
+Wire Wire Line
+	4750 4600 5300 4600
+Wire Wire Line
+	5050 4600 5050 4350
+Connection ~ 5300 4600
+Wire Wire Line
+	4750 4600 4750 4350
+Connection ~ 5050 4600
+Connection ~ 5300 3900
+Wire Wire Line
+	4800 5050 5000 5050
+Wire Wire Line
+	4950 5050 4950 5250
+Connection ~ 4950 5050
+Wire Wire Line
+	4950 5450 4950 5550
+Wire Wire Line
+	4950 5550 5300 5550
+Wire Wire Line
+	5300 5200 5300 5700
+Connection ~ 5300 5550
+Wire Wire Line
+	3800 3700 3800 4200
+Wire Wire Line
+	3550 3900 3550 4150
+Wire Wire Line
+	3250 4150 3250 3900
+Connection ~ 3550 3900
+Wire Wire Line
+	3800 4300 3800 4800
+Wire Wire Line
+	3800 4600 3800 4450
+Wire Wire Line
+	3250 4600 3800 4600
+Wire Wire Line
+	3550 4600 3550 4350
+Connection ~ 3800 4600
+Wire Wire Line
+	3250 4600 3250 4350
+Connection ~ 3550 4600
+Connection ~ 3800 3900
+Wire Wire Line
+	3300 5050 3500 5050
+Wire Wire Line
+	3450 5050 3450 5250
+Connection ~ 3450 5050
+Wire Wire Line
+	3450 5450 3450 5550
+Wire Wire Line
+	3450 5550 3800 5550
+Wire Wire Line
+	3800 5200 3800 5700
+Connection ~ 3800 5550
+Wire Wire Line
+	2700 5050 3100 5050
+Wire Wire Line
+	8550 1550 8550 2050
+Wire Wire Line
+	8000 1750 8550 1750
+Wire Wire Line
+	8300 1750 8300 2000
+Wire Wire Line
+	8000 2000 8000 1750
+Connection ~ 8300 1750
+Wire Wire Line
+	8550 2150 8550 2650
+Wire Wire Line
+	8550 2450 8550 2300
+Wire Wire Line
+	8000 2450 8550 2450
+Wire Wire Line
+	8300 2450 8300 2200
+Connection ~ 8550 2450
+Wire Wire Line
+	8000 2450 8000 2200
+Connection ~ 8300 2450
+Connection ~ 8550 1750
+Wire Wire Line
+	8050 2900 8250 2900
+Wire Wire Line
+	8200 2900 8200 3100
+Connection ~ 8200 2900
+Wire Wire Line
+	8200 3300 8200 3400
+Wire Wire Line
+	8200 3400 8550 3400
+Wire Wire Line
+	8550 3050 8550 3550
+Connection ~ 8550 3400
+Wire Wire Line
+	7050 1550 7050 2050
+Wire Wire Line
+	6500 1750 7050 1750
+Wire Wire Line
+	6800 1750 6800 2000
+Wire Wire Line
+	6500 2000 6500 1750
+Connection ~ 6800 1750
+Wire Wire Line
+	7050 2150 7050 2650
+Wire Wire Line
+	7050 2450 7050 2300
+Wire Wire Line
+	6500 2450 7050 2450
+Wire Wire Line
+	6800 2450 6800 2200
+Connection ~ 7050 2450
+Wire Wire Line
+	6500 2450 6500 2200
+Connection ~ 6800 2450
+Connection ~ 7050 1750
+Wire Wire Line
+	6550 2900 6750 2900
+Wire Wire Line
+	6700 2900 6700 3100
+Connection ~ 6700 2900
+Wire Wire Line
+	6700 3300 6700 3400
+Wire Wire Line
+	6700 3400 7050 3400
+Wire Wire Line
+	7050 3050 7050 3550
+Connection ~ 7050 3400
+Wire Wire Line
+	6350 2900 6250 2900
+Wire Wire Line
+	5300 1550 5300 2050
+Wire Wire Line
+	4750 1750 5300 1750
+Wire Wire Line
+	5050 1750 5050 2000
+Wire Wire Line
+	4750 2000 4750 1750
+Connection ~ 5050 1750
+Wire Wire Line
+	5300 2150 5300 2650
+Wire Wire Line
+	4750 2450 5300 2450
+Wire Wire Line
+	5050 2450 5050 2200
+Connection ~ 5300 2450
+Wire Wire Line
+	4750 2450 4750 2200
+Connection ~ 5050 2450
+Connection ~ 5300 1750
+Wire Wire Line
+	4800 2900 5000 2900
+Wire Wire Line
+	4950 2900 4950 3100
+Connection ~ 4950 2900
+Wire Wire Line
+	4950 3300 4950 3400
+Wire Wire Line
+	4950 3400 5300 3400
+Wire Wire Line
+	5300 3050 5300 3550
+Connection ~ 5300 3400
+Wire Wire Line
+	3800 1550 3800 2050
+Wire Wire Line
+	3250 1750 3800 1750
+Wire Wire Line
+	3550 1750 3550 2000
+Wire Wire Line
+	3250 2000 3250 1750
+Connection ~ 3550 1750
+Wire Wire Line
+	3800 2150 3800 2650
+Wire Wire Line
+	3800 2450 3800 2300
+Wire Wire Line
+	3250 2450 3800 2450
+Wire Wire Line
+	3550 2450 3550 2200
+Connection ~ 3800 2450
+Wire Wire Line
+	3250 2450 3250 2200
+Connection ~ 3550 2450
+Connection ~ 3800 1750
+Wire Wire Line
+	3300 2900 3500 2900
+Wire Wire Line
+	3450 2900 3450 3100
+Connection ~ 3450 2900
+Wire Wire Line
+	3450 3300 3450 3400
+Wire Wire Line
+	3450 3400 3800 3400
+Wire Wire Line
+	3800 3050 3800 3550
+Connection ~ 3800 3400
+Wire Wire Line
+	1300 2500 1300 3200
+Wire Wire Line
+	1150 3300 1300 3300
+Wire Wire Line
+	1150 2200 1150 3300
+Wire Wire Line
+	850  2200 1150 2200
+Wire Wire Line
+	1100 3400 1300 3400
+Wire Wire Line
+	1100 2300 1100 3400
+Wire Wire Line
+	850  2300 1100 2300
+Wire Wire Line
+	950  4350 950  2400
+Wire Wire Line
+	6250 2900 6250 3650
+Wire Wire Line
+	6250 3650 2650 3650
+Wire Wire Line
+	2400 3400 2200 3400
+Wire Wire Line
+	2200 4100 1800 4100
+Connection ~ 2200 4100
+Wire Wire Line
+	2600 5750 6250 5750
+Wire Wire Line
+	6250 5750 6250 5050
+Wire Wire Line
+	7750 5050 7750 5800
+Wire Wire Line
+	7750 5800 1050 5800
+Wire Wire Line
+	1150 4250 1150 3900
+Wire Wire Line
+	1150 3900 1300 3900
+Connection ~ 3800 5700
+Wire Wire Line
+	2200 3400 2200 5700
+Connection ~ 2200 4350
+Wire Wire Line
+	2200 4350 950  4350
+Wire Wire Line
+	5850 850  5850 950 
+Wire Wire Line
+	2000 1850 2000 2000
+Wire Wire Line
+	2000 2000 1900 2000
+Wire Wire Line
+	2100 1850 2100 2000
+Wire Wire Line
+	2100 2000 2400 2000
+Wire Wire Line
+	1900 2850 1900 3300
+Wire Wire Line
+	1900 3300 1800 3300
+Wire Wire Line
+	2400 2000 2400 3400
+Connection ~ 2200 2000
+Wire Wire Line
+	2200 2850 2400 2850
+Connection ~ 2400 2850
+Wire Wire Line
+	3250 3900 3800 3900
+Wire Wire Line
+	4750 3900 5300 3900
+Wire Wire Line
+	6500 3900 7050 3900
+Wire Wire Line
+	7850 2900 7650 2900
+Wire Wire Line
+	7650 2900 7650 3800
+Wire Wire Line
+	7650 3800 2400 3800
+Wire Wire Line
+	3050 3900 1800 3900
+Wire Wire Line
+	2050 3250 2050 4000
+Wire Wire Line
+	1150 4250 2600 4250
+Wire Wire Line
+	2700 4200 2700 5050
+Wire Wire Line
+	2050 4000 1800 4000
+Wire Wire Line
+	2650 2900 3100 2900
+Wire Wire Line
+	2650 3250 2650 2900
+Wire Wire Line
+	2600 4250 2600 5750
+Wire Wire Line
+	4500 2900 4600 2900
+Wire Wire Line
+	4500 3600 4500 2900
+Wire Wire Line
+	3050 3600 4500 3600
+Wire Wire Line
+	1100 4750 1100 3800
+Wire Wire Line
+	1050 3700 1300 3700
+Wire Wire Line
+	4600 5050 4500 5050
+Wire Wire Line
+	4500 5050 4500 4750
+Wire Wire Line
+	4500 4750 1100 4750
+Wire Wire Line
+	1050 5800 1050 3700
+Wire Wire Line
+	1100 3800 1300 3800
+Wire Wire Line
+	2400 3600 1800 3600
+Wire Wire Line
+	2700 4200 1300 4200
+Wire Wire Line
+	1300 4200 1300 4100
+Wire Wire Line
+	2400 3800 2400 3600
+Wire Wire Line
+	1800 3700 2650 3700
+Wire Wire Line
+	3050 3600 3050 3900
+Wire Wire Line
+	2650 3700 2650 3650
+NoConn ~ 1800 3400
+Connection ~ 7050 5700
+Wire Wire Line
+	1300 2500 850  2500
+Wire Wire Line
+	950  2400 850  2400
+$Comp
+L CONN_01X02 P16
+U 1 1 58CFEBC7
+P 5900 650
+F 0 "P16" H 5900 800 50  0000 C CNN
+F 1 "Batt" V 6000 650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5900 650 50  0001 C CNN
+F 3 "" H 5900 650 50  0000 C CNN
+	1    5900 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 mfl3
+U 1 1 58CFEBC8
+P 4000 2100
+F 0 "mfl3" H 4000 2250 50  0000 C CNN
+F 1 "CONN_01X02" V 4100 2100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 4000 2100 50  0001 C CNN
+F 3 "" H 4000 2100 50  0000 C CNN
+	1    4000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dfl3
+U 1 1 58CFEBC9
+P 3550 2100
+F 0 "dfl3" H 3500 2180 50  0000 L CNN
+F 1 "D_Small" H 3400 2020 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 3550 2100 50  0001 C CNN
+F 3 "" V 3550 2100 50  0000 C CNN
+	1    3550 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cfl3
+U 1 1 58CFEBCA
+P 3250 2100
+F 0 "cfl3" H 3260 2170 50  0000 L CNN
+F 1 "0.1u" H 3260 2020 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3250 2100 50  0001 C CNN
+F 3 "" H 3250 2100 50  0000 C CNN
+	1    3250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1fl3
+U 1 1 58CFEBCB
+P 3200 2900
+F 0 "r1fl3" H 3230 2920 50  0000 L CNN
+F 1 "200" H 3230 2860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3200 2900 50  0001 C CNN
+F 3 "" H 3200 2900 50  0000 C CNN
+	1    3200 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2fl3
+U 1 1 58CFEBCC
+P 3450 3200
+F 0 "r2fl3" H 3480 3220 50  0000 L CNN
+F 1 "8.2k" H 3480 3160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3450 3200 50  0001 C CNN
+F 3 "" H 3450 3200 50  0000 C CNN
+	1    3450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 mfl4
+U 1 1 58CFEBCD
+P 5500 2100
+F 0 "mfl4" H 5500 2250 50  0000 C CNN
+F 1 "CONN_01X02" V 5600 2100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 5500 2100 50  0001 C CNN
+F 3 "" H 5500 2100 50  0000 C CNN
+	1    5500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dfl4
+U 1 1 58CFEBCE
+P 5050 2100
+F 0 "dfl4" H 5000 2180 50  0000 L CNN
+F 1 "D_Small" H 4900 2020 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 5050 2100 50  0001 C CNN
+F 3 "" V 5050 2100 50  0000 C CNN
+	1    5050 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cfl4
+U 1 1 58CFEBCF
+P 4750 2100
+F 0 "cfl4" H 4760 2170 50  0000 L CNN
+F 1 "0.1u" H 4760 2020 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4750 2100 50  0001 C CNN
+F 3 "" H 4750 2100 50  0000 C CNN
+	1    4750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BF244A qfl4
+U 1 1 58CFEBD0
+P 5200 2850
+F 0 "qfl4" H 5400 2925 50  0000 L CNN
+F 1 "SS8050" H 5400 2850 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 5400 2775 50  0001 L CIN
+F 3 "" H 5200 2800 50  0000 L CNN
+	1    5200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1fl4
+U 1 1 58CFEBD1
+P 4700 2900
+F 0 "r1fl4" H 4730 2920 50  0000 L CNN
+F 1 "200" H 4730 2860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4700 2900 50  0001 C CNN
+F 3 "" H 4700 2900 50  0000 C CNN
+	1    4700 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2fl4
+U 1 1 58CFEBD2
+P 4950 3200
+F 0 "r2fl4" H 4980 3220 50  0000 L CNN
+F 1 "8.2k" H 4980 3160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4950 3200 50  0001 C CNN
+F 3 "" H 4950 3200 50  0000 C CNN
+	1    4950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 mfr3
+U 1 1 58CFEBD3
+P 7250 2100
+F 0 "mfr3" H 7250 2250 50  0000 C CNN
+F 1 "CONN_01X02" V 7350 2100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 7250 2100 50  0001 C CNN
+F 3 "" H 7250 2100 50  0000 C CNN
+	1    7250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dfr3
+U 1 1 58CFEBD4
+P 6800 2100
+F 0 "dfr3" H 6750 2180 50  0000 L CNN
+F 1 "D_Small" H 6650 2020 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 6800 2100 50  0001 C CNN
+F 3 "" V 6800 2100 50  0000 C CNN
+	1    6800 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cfr3
+U 1 1 58CFEBD5
+P 6500 2100
+F 0 "cfr3" H 6510 2170 50  0000 L CNN
+F 1 "0.1u" H 6510 2020 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6500 2100 50  0001 C CNN
+F 3 "" H 6500 2100 50  0000 C CNN
+	1    6500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1fr3
+U 1 1 58CFEBD6
+P 6450 2900
+F 0 "r1fr3" H 6480 2920 50  0000 L CNN
+F 1 "200" H 6480 2860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6450 2900 50  0001 C CNN
+F 3 "" H 6450 2900 50  0000 C CNN
+	1    6450 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2fr3
+U 1 1 58CFEBD7
+P 6700 3200
+F 0 "r2fr3" H 6730 3220 50  0000 L CNN
+F 1 "8.2k" H 6730 3160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6700 3200 50  0001 C CNN
+F 3 "" H 6700 3200 50  0000 C CNN
+	1    6700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 mfr4
+U 1 1 58CFEBD8
+P 8750 2100
+F 0 "mfr4" H 8750 2250 50  0000 C CNN
+F 1 "CONN_01X02" V 8850 2100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 8750 2100 50  0001 C CNN
+F 3 "" H 8750 2100 50  0000 C CNN
+	1    8750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dfr4
+U 1 1 58CFEBD9
+P 8300 2100
+F 0 "dfr4" H 8250 2180 50  0000 L CNN
+F 1 "D_Small" H 8150 2020 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 8300 2100 50  0001 C CNN
+F 3 "" V 8300 2100 50  0000 C CNN
+	1    8300 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cfr4
+U 1 1 58CFEBDA
+P 8000 2100
+F 0 "cfr4" H 8010 2170 50  0000 L CNN
+F 1 "0.1u" H 8010 2020 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8000 2100 50  0001 C CNN
+F 3 "" H 8000 2100 50  0000 C CNN
+	1    8000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1fr4
+U 1 1 58CFEBDB
+P 7950 2900
+F 0 "r1fr4" H 7980 2920 50  0000 L CNN
+F 1 "200" H 7980 2860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7950 2900 50  0001 C CNN
+F 3 "" H 7950 2900 50  0000 C CNN
+	1    7950 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2fr4
+U 1 1 58CFEBDC
+P 8200 3200
+F 0 "r2fr4" H 8230 3220 50  0000 L CNN
+F 1 "8.2k" H 8230 3160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8200 3200 50  0001 C CNN
+F 3 "" H 8200 3200 50  0000 C CNN
+	1    8200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 mbl3
+U 1 1 58CFEBDD
+P 4000 4250
+F 0 "mbl3" H 4000 4400 50  0000 C CNN
+F 1 "mbl1" V 4100 4250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 4000 4250 50  0001 C CNN
+F 3 "" H 4000 4250 50  0000 C CNN
+	1    4000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dbl3
+U 1 1 58CFEBDE
+P 3550 4250
+F 0 "dbl3" H 3500 4330 50  0000 L CNN
+F 1 "D_Small" H 3400 4170 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 3550 4250 50  0001 C CNN
+F 3 "" V 3550 4250 50  0000 C CNN
+	1    3550 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cbl3
+U 1 1 58CFEBDF
+P 3250 4250
+F 0 "cbl3" H 3260 4320 50  0000 L CNN
+F 1 "0.1u" H 3260 4170 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3250 4250 50  0001 C CNN
+F 3 "" H 3250 4250 50  0000 C CNN
+	1    3250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1bl3
+U 1 1 58CFEBE0
+P 3200 5050
+F 0 "r1bl3" H 3230 5070 50  0000 L CNN
+F 1 "200" H 3230 5010 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3200 5050 50  0001 C CNN
+F 3 "" H 3200 5050 50  0000 C CNN
+	1    3200 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2bl3
+U 1 1 58CFEBE1
+P 3450 5350
+F 0 "r2bl3" H 3480 5370 50  0000 L CNN
+F 1 "8.2k" H 3480 5310 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3450 5350 50  0001 C CNN
+F 3 "" H 3450 5350 50  0000 C CNN
+	1    3450 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 mbl4
+U 1 1 58CFEBE2
+P 5500 4250
+F 0 "mbl4" H 5500 4400 50  0000 C CNN
+F 1 "mbl2" V 5600 4250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 5500 4250 50  0001 C CNN
+F 3 "" H 5500 4250 50  0000 C CNN
+	1    5500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dbl4
+U 1 1 58CFEBE3
+P 5050 4250
+F 0 "dbl4" H 5000 4330 50  0000 L CNN
+F 1 "D_Small" H 4900 4170 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 5050 4250 50  0001 C CNN
+F 3 "" V 5050 4250 50  0000 C CNN
+	1    5050 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cbl4
+U 1 1 58CFEBE4
+P 4750 4250
+F 0 "cbl4" H 4760 4320 50  0000 L CNN
+F 1 "0.1u" H 4760 4170 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4750 4250 50  0001 C CNN
+F 3 "" H 4750 4250 50  0000 C CNN
+	1    4750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1bl4
+U 1 1 58CFEBE5
+P 4700 5050
+F 0 "r1bl4" H 4730 5070 50  0000 L CNN
+F 1 "200" H 4730 5010 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4700 5050 50  0001 C CNN
+F 3 "" H 4700 5050 50  0000 C CNN
+	1    4700 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2bl4
+U 1 1 58CFEBE6
+P 4950 5350
+F 0 "r2bl4" H 4980 5370 50  0000 L CNN
+F 1 "8.2k" H 4980 5310 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4950 5350 50  0001 C CNN
+F 3 "" H 4950 5350 50  0000 C CNN
+	1    4950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 mbr3
+U 1 1 58CFEBE7
+P 7250 4250
+F 0 "mbr3" H 7250 4400 50  0000 C CNN
+F 1 "mbr1" V 7350 4250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 7250 4250 50  0001 C CNN
+F 3 "" H 7250 4250 50  0000 C CNN
+	1    7250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dbr3
+U 1 1 58CFEBE8
+P 6800 4250
+F 0 "dbr3" H 6750 4330 50  0000 L CNN
+F 1 "D_Small" H 6650 4170 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 6800 4250 50  0001 C CNN
+F 3 "" V 6800 4250 50  0000 C CNN
+	1    6800 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cbr3
+U 1 1 58CFEBE9
+P 6500 4250
+F 0 "cbr3" H 6510 4320 50  0000 L CNN
+F 1 "0.1u" H 6510 4170 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6500 4250 50  0001 C CNN
+F 3 "" H 6500 4250 50  0000 C CNN
+	1    6500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1br3
+U 1 1 58CFEBEA
+P 6450 5050
+F 0 "r1br3" H 6480 5070 50  0000 L CNN
+F 1 "200" H 6480 5010 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6450 5050 50  0001 C CNN
+F 3 "" H 6450 5050 50  0000 C CNN
+	1    6450 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2br3
+U 1 1 58CFEBEB
+P 6700 5350
+F 0 "r2br3" H 6730 5370 50  0000 L CNN
+F 1 "8.2k" H 6730 5310 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6700 5350 50  0001 C CNN
+F 3 "" H 6700 5350 50  0000 C CNN
+	1    6700 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 mbr4
+U 1 1 58CFEBEC
+P 8750 4250
+F 0 "mbr4" H 8750 4400 50  0000 C CNN
+F 1 "mbr2" V 8850 4250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 8750 4250 50  0001 C CNN
+F 3 "" H 8750 4250 50  0000 C CNN
+	1    8750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small dbr4
+U 1 1 58CFEBED
+P 8300 4250
+F 0 "dbr4" H 8250 4330 50  0000 L CNN
+F 1 "D_Small" H 8150 4170 50  0001 L CNN
+F 2 "Diodes_ThroughHole:D_DO-15_P2.54mm_Vertical_AnodeUp" V 8300 4250 50  0001 C CNN
+F 3 "" V 8300 4250 50  0000 C CNN
+	1    8300 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small cbr4
+U 1 1 58CFEBEE
+P 8000 4250
+F 0 "cbr4" H 8010 4320 50  0000 L CNN
+F 1 "0.1u" H 8010 4170 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8000 4250 50  0001 C CNN
+F 3 "" H 8000 4250 50  0000 C CNN
+	1    8000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small r1br4
+U 1 1 58CFEBEF
+P 7950 5050
+F 0 "r1br4" H 7980 5070 50  0000 L CNN
+F 1 "200" H 7980 5010 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7950 5050 50  0001 C CNN
+F 3 "" H 7950 5050 50  0000 C CNN
+	1    7950 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small r2br4
+U 1 1 58CFEBF0
+P 8200 5350
+F 0 "r2br4" H 8230 5370 50  0000 L CNN
+F 1 "8.2k" H 8230 5310 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8200 5350 50  0001 C CNN
+F 3 "" H 8200 5350 50  0000 C CNN
+	1    8200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X10 P10
+U 1 1 58CFEBF1
+P 1550 3650
+F 0 "P10" H 1550 4200 50  0000 C CNN
+F 1 "CONN_02X10" V 1550 3650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x10_Pitch2.54mm" H 1550 2450 50  0001 C CNN
+F 3 "" H 1550 2450 50  0000 C CNN
+	1    1550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P9
+U 1 1 58CFEBF2
+P 650 2350
+F 0 "P9" H 650 2600 50  0000 C CNN
+F 1 "Accel" V 750 2350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04_Pitch2.54mm" H 650 2350 50  0001 C CNN
+F 3 "" H 650 2350 50  0000 C CNN
+	1    650  2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L BF244A qfl3
+U 1 1 58CFEBF3
+P 3700 2850
+F 0 "qfl3" H 3900 2925 50  0000 L CNN
+F 1 "SS8050" H 3900 2850 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 3900 2775 50  0001 L CIN
+F 3 "" H 3700 2800 50  0000 L CNN
+	1    3700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BF244A qfr3
+U 1 1 58CFEBF4
+P 6950 2850
+F 0 "qfr3" H 7150 2925 50  0000 L CNN
+F 1 "SS8050" H 7150 2850 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 7150 2775 50  0001 L CIN
+F 3 "" H 6950 2800 50  0000 L CNN
+	1    6950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BF244A qfr4
+U 1 1 58CFEBF5
+P 8450 2850
+F 0 "qfr4" H 8650 2925 50  0000 L CNN
+F 1 "SS8050" H 8650 2850 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 8650 2775 50  0001 L CIN
+F 3 "" H 8450 2800 50  0000 L CNN
+	1    8450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BF244A qbr4
+U 1 1 58CFEBF6
+P 8450 5000
+F 0 "qbr4" H 8650 5075 50  0000 L CNN
+F 1 "SS8050" H 8650 5000 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 8650 4925 50  0001 L CIN
+F 3 "" H 8450 4950 50  0000 L CNN
+	1    8450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BF244A qbr3
+U 1 1 58CFEBF7
+P 6950 5000
+F 0 "qbr3" H 7150 5075 50  0000 L CNN
+F 1 "SS8050" H 7150 5000 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 7150 4925 50  0001 L CIN
+F 3 "" H 6950 4950 50  0000 L CNN
+	1    6950 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BF244A qbl4
+U 1 1 58CFEBF8
+P 5200 5000
+F 0 "qbl4" H 5400 5075 50  0000 L CNN
+F 1 "SS8050" H 5400 5000 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 5400 4925 50  0001 L CIN
+F 3 "" H 5200 4950 50  0000 L CNN
+	1    5200 5000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1300 3500
+NoConn ~ 1300 4000
+$Comp
+L F_Small F2
+U 1 1 58CFEBF9
+P 5850 1050
+F 0 "F2" H 5810 1110 50  0000 L CNN
+F 1 "Poly switch" H 5730 990 50  0000 L CNN
+F 2 "footprint:polysw" H 5850 1050 50  0001 C CNN
+F 3 "" H 5850 1050 50  0000 C CNN
+	1    5850 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P13
+U 1 1 58CFEBFA
+P 2050 1650
+F 0 "P13" H 2050 1800 50  0000 C CNN
+F 1 "Batt Pi" V 2150 1650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2050 1650 50  0001 C CNN
+F 3 "" H 2050 1650 50  0000 C CNN
+	1    2050 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P12
+U 1 1 58CFEBFB
+P 1900 2650
+F 0 "P12" H 1900 2750 50  0000 C CNN
+F 1 "5v_out" V 2000 2650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 1900 2650 50  0001 C CNN
+F 3 "" H 1900 2650 50  0000 C CNN
+	1    1900 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P11
+U 1 1 58CFEBFC
+P 1900 2200
+F 0 "P11" H 1900 2300 50  0000 C CNN
+F 1 "from batt" V 2000 2200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 1900 2200 50  0001 C CNN
+F 3 "" H 1900 2200 50  0000 C CNN
+	1    1900 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P15
+U 1 1 58CFEBFD
+P 2200 2650
+F 0 "P15" H 2200 2750 50  0000 C CNN
+F 1 "GND" V 2300 2650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 2200 2650 50  0001 C CNN
+F 3 "" H 2200 2650 50  0000 C CNN
+	1    2200 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P14
+U 1 1 58CFEBFE
+P 2200 2200
+F 0 "P14" H 2200 2300 50  0000 C CNN
+F 1 "GND" V 2300 2200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 2200 2200 50  0001 C CNN
+F 3 "" H 2200 2200 50  0000 C CNN
+	1    2200 2200
+	0    1    1    0   
+$EndComp
+NoConn ~ 1300 3600
+$Comp
+L BF244A qbl3
+U 1 1 58CFEBFF
+P 3700 5000
+F 0 "qbl3" H 3900 5075 50  0000 L CNN
+F 1 "SS8050" H 3900 5000 50  0000 L CNN
+F 2 "footprint:SPN3414S23RGB" H 3900 4925 50  0001 L CIN
+F 3 "" H 3700 4950 50  0000 L CNN
+	1    3700 5000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1800 3800
+NoConn ~ 1800 3200
+NoConn ~ 1800 3500
+NoConn ~ 1800 3400
+$Sheet
+S 12100 4650 5000 2250
+U 58D43FED
+F0 "DCDC" 60
+F1 "DCDC.sch" 60
+$EndSheet
+$EndSCHEMATC
